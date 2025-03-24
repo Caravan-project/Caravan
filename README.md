@@ -1,31 +1,27 @@
-# Description
-This branch, **Fine-tune-lock**, contains the source code for the paper **Account Migration across Blockchain Shards using Fine-tuned Lock Mechanism** (INFOCOM'24). Detailed information about this branch can be found in the paper.
+# Caravan: Incentive-Driven Account Migration via Transaction Aggregation in Sharded Blockchain
+## Description
+Caravan is an optimized account migration scheme based on Fine-tuned Lock [INFOCOM'24]. In brief: (1) Caravan introduces a transaction aggregation mechanism to efficiently process withdrawal transactions associated with migrating accounts, while ensuring security through a modified multi-level Merkle tree structure; (2) Caravan proposes an incentive-driven priority mechanism for migration transactions. By increasing the revenue generated from these transactions, it incentivizes miners to prioritize them, thereby accelerating the migration process.
 
-# Start
-To start this *Go* program, review the code logic in `./test/test_shard.go`.
+Caravan is currently under submission, with its preprint available on ePrint. For a detailed view of Caravan’s design, refer to: xxx.
 
-Here are some tips:
+Note that our experimental prototype of Caravan is built on the open-source blockchain testbed BlockEmulator, specifically the fine-tune-lock branch. For foundational knowledge on sharded blockchains and account migration, refer to: 
 
-## Dataset
-We have provided a dataset (i.e., `./20W.csv`) in this branch.
+**BlockEmulator**. https://github.com/HuangLab-SYSU/block-emulator/tree/main 
 
-## Network configuration
-Before running this code, modify the following variables in `./params/config.go`:
-- ClientAddr: *ClientAddr* in this branch is similar to *Supervisor* in the `main` branch.
-- NodeTable: *NodeTable* in this branch is similar to *IPmap_nodeTable* in the `main` branch, but this map should be filled in manually.
+**fine-tune-lock branch.** https://github.com/HuangLab-SYSU/block-emulator/tree/Fine-tune-lock.
+
+The HuangLab team at Sun Yat-sen University has developed comprehensive documentation on this open-sourced testbed.
+
 
 ## Run a node
-Running a node in this branch is similar to running one in the `main` branch. 
+Running a node in Caravan is the same as Fine-tuned Lock.
+
 Here is an example:
 ```
 go run main.go -S 4 -f 1 -s S1 -n N1 -t 20W.csv
 ```
-The explanation of this command can be found in `./test/test_shard.go`.
 
-## Batch running (Not supported)
-This branch does not support batch running.
-However, you can write some code to enable batch running yourself.
 
-# Additional Information
-**Earlier version**: This work is built on an earlier version of **BlockEmulator**, so the code structure does not match the current `main` branch.  
-**Omitted some security implementations**: Some features related to security or validation, such as Merkle proof and validation, are not implemented in this code. These features are discussed in other papers and are not central to this work.
+## Batch running
+xxxxxxx
+
