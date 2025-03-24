@@ -4,7 +4,10 @@ Caravan is an optimized account migration scheme based on Fine-tuned Lock [INFOC
 
 Caravan is currently under submission, with its preprint available on ePrint. For a detailed view of Caravan’s design, refer to: xxx.
 
-Note that our experimental prototype of Caravan is built on the open-source blockchain testbed BlockEmulator, specifically the fine-tune-lock branch. For foundational knowledge on sharded blockchains and account migration, refer to: https://github.com/HuangLab-SYSU/block-emulator/tree/main and https://github.com/HuangLab-SYSU/block-emulator/tree/Fine-tune-lock. The HuangLab team at Sun Yat-sen University has developed comprehensive documentation based on this work.
+Note that our experimental prototype of Caravan is built on the open-source blockchain testbed BlockEmulator, specifically the fine-tune-lock branch. For foundational knowledge on sharded blockchains and account migration, refer to: 
+**BlockEmulator**. https://github.com/HuangLab-SYSU/block-emulator/tree/main 
+**fine-tune-lock branch.** https://github.com/HuangLab-SYSU/block-emulator/tree/Fine-tune-lock.
+The HuangLab team at Sun Yat-sen University has developed comprehensive documentation based on this work.
 
 
 ## Run a node
