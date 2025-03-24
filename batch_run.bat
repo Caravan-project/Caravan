@@ -30,13 +30,13 @@ start cmd /k go run main.go -S 4 -f 1 -s S2 -n N4 -t 20W.csv
 start cmd /k go run main.go -S 4 -f 1 -s S2 -n N5 -t 20W.csv
 start cmd /k go run main.go -S 4 -f 1 -s S2 -n N6 -t 20W.csv
 
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N0 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N1 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N2 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N3 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N4 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N5 -t 20W.csv
-start cmd /k go run main.go -S 4 -f 1 -s S2 -n N6 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N0 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N1 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N2 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N3 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N4 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N5 -t 20W.csv
+start cmd /k go run main.go -S 4 -f 1 -s S3 -n N6 -t 20W.csv
 
 
 timeout /T 20 /NOBREAK && go run main.go -S 2 -c -t 20W.csv
