@@ -2,7 +2,18 @@
 ## Description
 Caravan is an optimized account migration scheme based on Fine-tuned Lock [INFOCOM'24]. In brief: (1) Caravan introduces a transaction aggregation mechanism to efficiently process withdrawal transactions associated with migrating accounts, while ensuring security through a modified multi-level Merkle tree structure; (2) Caravan proposes an incentive-driven priority mechanism for migration transactions. By increasing the revenue generated from these transactions, it incentivizes miners to prioritize them, thereby accelerating the migration process.
 
-Caravan is currently under submission, with its preprint available on ePrint. For a detailed view of Caravan’s design, refer to: xxx.
+Caravan is currently published on IEEE transactions on computers. For a detailed view of Caravan’s design, refer to: 10.1109/TC.2025.3603672.
+
+**Citation.**
+@ARTICLE{caravan_tao25,
+  author={Tao, Yu and Zhou, Shouchen and Zhou, Lu and Liu, Zhe},
+  journal={IEEE Transactions on Computers}, 
+  title={Caravan: Incentive-Driven Account Migration via Transaction Aggregation in Sharded Blockchain}, 
+  year={2025},
+  volume={74},
+  number={11},
+  pages={3609-3622}
+  }
 
 Note that our experimental prototype of Caravan is built on the open-source blockchain testbed BlockEmulator, specifically the fine-tune-lock branch. 
 The HuangLab team at Sun Yat-sen University has developed comprehensive documentation on this open-sourced testbed. 
@@ -11,6 +22,8 @@ For further knowledge on sharded blockchains and account migration, refer to:
 **BlockEmulator**. https://github.com/HuangLab-SYSU/block-emulator/tree/main 
 
 **fine-tune-lock branch.** https://github.com/HuangLab-SYSU/block-emulator/tree/Fine-tune-lock.
+
+
 
 
 
